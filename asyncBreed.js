@@ -10,7 +10,7 @@ const breedDetailsFromFile = function(breed, callback) {
   // ISSUE: Attempting to return data out here will also not work.
   //        Currently not returning anything from here, so this function returns undefined.
 };
-
+/*
 // we try to get the return value
 let bombay;
 breedDetailsFromFile('Bombay', console.log);
@@ -20,3 +20,4 @@ setTimeout(() => {
   console.log(bombay);  // HA!  Who needs instructions!
 }, 1000);
 */
+module.exports = breedDetailsFromFile;
